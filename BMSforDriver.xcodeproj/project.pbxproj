@@ -13,6 +13,10 @@
 		78F324C81EA7A85C00C4D268 /* BMSforDriver.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 78F324C61EA7A85C00C4D268 /* BMSforDriver.xcdatamodeld */; };
 		78F324CA1EA7A85C00C4D268 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78F324C91EA7A85C00C4D268 /* Assets.xcassets */; };
 		78F324CD1EA7A85C00C4D268 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78F324CB1EA7A85C00C4D268 /* LaunchScreen.storyboard */; };
+		78F324D51EA7A87300C4D268 /* 18051980_1557019257642014_1141956892_n.png in Resources */ = {isa = PBXBuildFile; fileRef = 78F324D41EA7A87300C4D268 /* 18051980_1557019257642014_1141956892_n.png */; };
+		78F324D71EA7AC3A00C4D268 /* 18051536_1557213180955955_969153139_n.png in Resources */ = {isa = PBXBuildFile; fileRef = 78F324D61EA7AC3A00C4D268 /* 18051536_1557213180955955_969153139_n.png */; };
+		78F324D91EA7AEA900C4D268 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F324D81EA7AEA900C4D268 /* MapViewController.swift */; };
+		78F324DB1EA7B5D800C4D268 /* PayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F324DA1EA7B5D800C4D268 /* PayViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		78F324C91EA7A85C00C4D268 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		78F324CC1EA7A85C00C4D268 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		78F324CE1EA7A85C00C4D268 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78F324D41EA7A87300C4D268 /* 18051980_1557019257642014_1141956892_n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 18051980_1557019257642014_1141956892_n.png; sourceTree = "<group>"; };
+		78F324D61EA7AC3A00C4D268 /* 18051536_1557213180955955_969153139_n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 18051536_1557213180955955_969153139_n.png; sourceTree = "<group>"; };
+		78F324D81EA7AEA900C4D268 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		78F324DA1EA7B5D800C4D268 /* PayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PayViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,10 @@
 				78F324CB1EA7A85C00C4D268 /* LaunchScreen.storyboard */,
 				78F324CE1EA7A85C00C4D268 /* Info.plist */,
 				78F324C61EA7A85C00C4D268 /* BMSforDriver.xcdatamodeld */,
+				78F324D61EA7AC3A00C4D268 /* 18051536_1557213180955955_969153139_n.png */,
+				78F324D41EA7A87300C4D268 /* 18051980_1557019257642014_1141956892_n.png */,
+				78F324D81EA7AEA900C4D268 /* MapViewController.swift */,
+				78F324DA1EA7B5D800C4D268 /* PayViewController.swift */,
 			);
 			path = BMSforDriver;
 			sourceTree = "<group>";
@@ -127,8 +139,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				78F324CD1EA7A85C00C4D268 /* LaunchScreen.storyboard in Resources */,
+				78F324D51EA7A87300C4D268 /* 18051980_1557019257642014_1141956892_n.png in Resources */,
 				78F324CA1EA7A85C00C4D268 /* Assets.xcassets in Resources */,
 				78F324C51EA7A85C00C4D268 /* Main.storyboard in Resources */,
+				78F324D71EA7AC3A00C4D268 /* 18051536_1557213180955955_969153139_n.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,8 +154,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				78F324C21EA7A85C00C4D268 /* ViewController.swift in Sources */,
+				78F324DB1EA7B5D800C4D268 /* PayViewController.swift in Sources */,
 				78F324C01EA7A85C00C4D268 /* AppDelegate.swift in Sources */,
 				78F324C81EA7A85C00C4D268 /* BMSforDriver.xcdatamodeld in Sources */,
+				78F324D91EA7AEA900C4D268 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

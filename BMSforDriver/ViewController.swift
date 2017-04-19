@@ -10,8 +10,18 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var pay: UIButton!
+    @IBOutlet weak var ortext: UILabel!
+    @IBOutlet weak var loginbt: UIButton!
+    @IBOutlet weak var username: UITextField!
+    @IBOutlet weak var password: UITextField!
+    @IBOutlet weak var logins: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
+        logins.isHidden = true
+        loginbt.isHidden = false
+        pay.isHidden = true
+        ortext.isHidden = true
         // Do any additional setup after loading the view, typically from a nib.
     }
 
@@ -20,6 +30,17 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    @IBAction func login(_ sender: Any) {
+        if username.text == "admin" && password.text == "1234" {
+            logins.isHidden = false
+            loginbt.isHidden = true
+            pay.isHidden = false
+            ortext.isHidden = false
+        }
+        else{
+            username.text = ""
+            password.text = ""
+        }
+    }
 }
 
